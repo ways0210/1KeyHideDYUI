@@ -28,6 +28,5 @@
 | AWEAntiAddictedNoticeBarView        | 防沉迷提示条           | 显示防沉迷相关的系统提示     |
 
 > 💡 **说明**：  
-> 1. 部分组件可能因版本更新而调整位置，建议通过调试工具动态查看  
-> 2. 图标列使用 [Emoji](https://unicode.org/emoji/charts/emoji-list.html) 表示，实际开发需替换为资产目录资源  
-> 3. 红色标注的 **AWEBaseElementView** 存在复用现象，需通过 `subviews` 进一步区分子组件
+> 部分组件可能因版本更新而调整位置，建议通过调试工具动态查看  
+
