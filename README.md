@@ -27,23 +27,24 @@
 | AFDAIbumFolioView                   | 图集评分指示           | 显示图集内容的评分信息       |
 | AWEAntiAddictedNoticeBarView        | 防沉迷提示条           | 显示防沉迷相关的系统提示     |
 
-##长按面板
-AWELongPressPanelSpeedViewModel：负责处理视频长按面板中播放速度相关的业务逻辑与数据展示。
-AWELongPressPanelClearScreenViewModel：处理长按面板里清屏功能的逻辑和数据。
-AWELongPressPanelWatchVideoLaterViewModel：用于实现视频 “稍后观看” 功能的业务逻辑。
-AWELongPressPanelCacheVideoModel：处理视频缓存功能的相关逻辑和数据。
-AWELongPressPanelVideoPictureSearchViewModel：处理视频画面搜索功能的业务逻辑。
-AWELongPressPanelScreenCastViewModel：负责视频投屏功能的逻辑和数据。
-AWELongPressPanelMultiDevicePlaySyncViewModel：实现多设备播放同步功能的逻辑。
-AWELongPressPanelFamiliarRecommendViewModel：处理相似推荐功能的业务逻辑。
-AWELongPressPanelStoreViewModel：处理视频存储相关功能的逻辑。
-AWELongPressPanelDisLikeViewModel：处理用户不喜欢视频相关的业务逻辑。
-AWELongPressPanelReportViewModel：处理视频举报功能的逻辑。
-AWELongPressPanelDanmakuViewModel：负责弹幕功能的业务逻辑。
-AWELongPressPanelTimingCloseViewModel：处理定时关闭功能的逻辑。
-AWELongPressPaneliPhoneAutoPlayViewModel：处理 iPhone 自动播放功能的逻辑。
-AWELongPressPanelBGPlaySettingsViewModel：处理视频后台播放设置的逻辑。
-AWELongPressPanelTableViewController：这是一个视图控制器，可能用于管理视频长按面板的表格视图，展示上述各种功能选项。
+视频长按面板相关视图模型与控制器
+类名	功能描述
+AWELongPressPanelSpeedViewModel	处理视频播放速度的逻辑与数据展示（如倍速选项）。
+AWELongPressPanelClearScreenViewModel	管理清屏功能的业务逻辑（如隐藏控制按钮）。
+AWELongPressPanelWatchVideoLaterViewModel	实现 “稍后观看” 功能（如添加到待播列表）。
+AWELongPressPanelCacheVideoModel	处理视频缓存逻辑（如本地存储、进度管理）。
+AWELongPressPanelVideoPictureSearchViewModel	支持视频画面搜索功能（如截图识别、帧定位）。
+AWELongPressPanelScreenCastViewModel	管理视频投屏逻辑（如设备连接、画面同步）。
+AWELongPressPanelMultiDevicePlaySyncViewModel	实现多设备播放同步（如跨设备续播）。
+AWELongPressPanelFamiliarRecommendViewModel	处理相似视频推荐逻辑（如算法推荐、个性化排序）。
+AWELongPressPanelStoreViewModel	管理视频存储功能（如保存到本地、云存储）。
+AWELongPressPanelDisLikeViewModel	处理用户 “不喜欢” 操作（如调整推荐算法）。
+AWELongPressPanelReportViewModel	实现视频举报功能（如违规内容上报）。
+AWELongPressPanelDanmakuViewModel	管理弹幕相关逻辑（如显示、发送、过滤）。
+AWELongPressPanelTimingCloseViewModel	处理定时关闭功能（如倒计时锁屏）。
+AWELongPressPaneliPhoneAutoPlayViewModel	控制 iPhone 自动播放行为（如横竖屏适配）。
+AWELongPressPanelBGPlaySettingsViewModel	管理后台播放设置（如音频模式、耗电优化）。
+AWELongPressPanelTableViewController	视图控制器，负责长按面板表格的布局与交互（整合上述功能选项）。
 
 > 💡 **说明**：  
 > 部分组件可能因版本更新而调整位置，建议通过调试工具动态查看  
