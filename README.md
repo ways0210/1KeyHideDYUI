@@ -27,6 +27,24 @@
 | AFDAIbumFolioView                   | 图集评分指示           | 显示图集内容的评分信息       |
 | AWEAntiAddictedNoticeBarView        | 防沉迷提示条           | 显示防沉迷相关的系统提示     |
 
+##长按面板
+AWELongPressPanelSpeedViewModel：负责处理视频长按面板中播放速度相关的业务逻辑与数据展示。
+AWELongPressPanelClearScreenViewModel：处理长按面板里清屏功能的逻辑和数据。
+AWELongPressPanelWatchVideoLaterViewModel：用于实现视频 “稍后观看” 功能的业务逻辑。
+AWELongPressPanelCacheVideoModel：处理视频缓存功能的相关逻辑和数据。
+AWELongPressPanelVideoPictureSearchViewModel：处理视频画面搜索功能的业务逻辑。
+AWELongPressPanelScreenCastViewModel：负责视频投屏功能的逻辑和数据。
+AWELongPressPanelMultiDevicePlaySyncViewModel：实现多设备播放同步功能的逻辑。
+AWELongPressPanelFamiliarRecommendViewModel：处理相似推荐功能的业务逻辑。
+AWELongPressPanelStoreViewModel：处理视频存储相关功能的逻辑。
+AWELongPressPanelDisLikeViewModel：处理用户不喜欢视频相关的业务逻辑。
+AWELongPressPanelReportViewModel：处理视频举报功能的逻辑。
+AWELongPressPanelDanmakuViewModel：负责弹幕功能的业务逻辑。
+AWELongPressPanelTimingCloseViewModel：处理定时关闭功能的逻辑。
+AWELongPressPaneliPhoneAutoPlayViewModel：处理 iPhone 自动播放功能的逻辑。
+AWELongPressPanelBGPlaySettingsViewModel：处理视频后台播放设置的逻辑。
+AWELongPressPanelTableViewController：这是一个视图控制器，可能用于管理视频长按面板的表格视图，展示上述各种功能选项。
+
 > 💡 **说明**：  
 > 部分组件可能因版本更新而调整位置，建议通过调试工具动态查看  
 
