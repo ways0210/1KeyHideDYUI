@@ -1,9 +1,11 @@
-Package: com.c00kiec00k.dy
-Name: HideUIButton
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: HideUIButton
-Maintainer: c00kiec00k
-Author: c00kiec00k
+Package: com.pxx917144686.x
+Name: x
+Version: 0.0.1
+Description: x
+Homepage: pxx917144686
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: firmware (>= 14.0), mobilesubstrate
+Priority: optional
+Maintainer: pxx917144686
+Author: pxx917144686
+Architecture: iphoneos-arm64 iphoneos-arm64e
